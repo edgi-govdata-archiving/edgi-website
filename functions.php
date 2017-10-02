@@ -11,4 +11,26 @@ function my_theme_enqueue_styles() {
     );
 }
 add_action( 'wp_enqueue_scripts', 'my_theme_enqueue_styles' );
+
+/**
+ * Fonts
+ */
+if ( !function_exists('sydney_google_fonts') ) :
+function sydney_google_fonts() {
+	$body_font 		= get_theme_mod('body_font_name', 'Open+Sans:400,400i,700,700i');
+	$headings_font 	= get_theme_mod('headings_font_name', 'Open+Sans+Condensed:300,700');
+
+	$fonts     		= array();
+	$fonts[] 		= esc_attr( str_replace( '+', ' ', $body_font ) );
+	$fonts[] 		= esc_attr( str_replace( '+', ' ', $headings_font ) );
+
+	if ( $fonts ) {
+		$fonts_url = add_query_arg( array(
+			'family' => urlencode( implode( '|', $fonts ) )
+		), 'https://fonts.googleapis.com/css' );
+	}
+
+	return $fonts_url;
+}
+endif;
 ?>

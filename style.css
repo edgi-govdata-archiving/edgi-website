@@ -10,3 +10,19 @@ License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: sydney-child
 */
+body {
+  font: 14px/1.7 "Open Sans", sans-serif;
+}
+h1, h2, h3, h4, h5, h6, #mainnav ul li a, .portfolio-info, .roll-testimonials .name, .roll-team .team-content .name, .roll-team .team-item .team-pop .name, .roll-tabs .menu-tab li a, .roll-testimonials .name, .roll-project .project-filter li a, .roll-button, .roll-counter .name-count, .roll-counter .numb-count button, input[type="button"], input[type="reset"], input[type="submit"] {
+    font-family: "Open Sans Condensed", sans-serif;
+}
+#mainnav ul li a {
+  font-family: "Open Sans Condensed", sans-serif;
+}
+#mainnav ul ul a {
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+#mainnav .sub-menu li a {
+	background: rgba(33, 124, 115, 0.8);
+	font-family: 'Open Sans Condensed', sans-serif;
+}
