@@ -9,5 +9,5 @@ We love improvements to our tools! EDGI has general [guidelines for contributing
 If you're new to the project, please join the `#website` channel in the [EDGI Slack](edgi.slack.com) team.
 
 <!-- Links -->
-[edgi-conduct]: https://github.com/edgi-govdata-archiving/overview/blob/master/CONDUCT.md
-[edgi-contributing]: https://github.com/edgi-govdata-archiving/overview/blob/master/CONTRIBUTING.md  
+[edgi-conduct]: https://github.com/edgi-govdata-archiving/overview/blob/main/CONDUCT.md
+[edgi-contributing]: https://github.com/edgi-govdata-archiving/overview/blob/main/CONTRIBUTING.md  
