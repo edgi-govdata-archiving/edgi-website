@@ -454,3 +454,14 @@ right: auto !important;
 	.site-main .wp-block-group__inner-container {
 		padding: 0px;
 	}
+
+	
+	.site-header .header-image {
+		width: 250px;
+	}
+	
+.pt-cv-readmore {
+    color: #FFF !important;
+    background-color: #48BCA9 !important;
+    border: none !important;
+}
