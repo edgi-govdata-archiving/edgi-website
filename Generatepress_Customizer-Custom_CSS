@@ -1,0 +1,456 @@
+/*
+You can add your own CSS here.
+
+
+Click the help icon above to learn more.
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+h1, h2, h3, h4, h5, h6, #mainnav ul li a, .portfolio-info, .roll-testimonials .name, .roll-team .team-content .name, .roll-team .team-item .team-pop .name, .roll-tabs .menu-tab li a, .roll-testimonials .name, .roll-project .project-filter li a, .roll-button, .roll-counter .name-count, .roll-counter .numb-count button, input[type="button"], input[type="reset"], input[type="submit"] {
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+#mainnav ul li a {
+  font-size: 20px;
+}
+#mainnav ul ul a {
+	font-family: 'Open Sans Condensed', sans-serif !important;
+}
+#mainnav .sub-menu li a {
+	background: rgba(33, 124, 115, 0.8);
+	font-family: 'Open Sans Condensed', sans-serif !important;
+}
+.home .title-post {
+	display: none;
+}
+article#post-26 {
+	margin-top: -40px;
+}
+article#post-2414 {
+	margin-top: -40px;
+}
+article#post-2414 .title-post {
+	display: none;
+}
+
+#sidebar-footer {
+    padding-top: 15px;
+    padding-bottom: 0px;
+}
+
+#pi_simpletwittertweets-4 {
+    padding-top: 15px;
+}
+.widget-area a {
+	color: #999999;
+}
+.hentry .title-post {
+	font-size: 32px;
+}
+.site-header.float-header {
+	padding: 0px 0;
+}
+.content_cards_card {
+	display: inline-block;
+	max-width: 32%;
+	vertical-align: text-top;
+}
+
+.content_cards_card .content_cards_title {
+    font-size: 1em;
+    line-height: 1.35;
+}
+
+.roll-button {
+	font-size: inherit;
+}
+
+.roll-promobox .title {
+    font-size: 24px;
+}
+
+#donate
+{
+	color:#FFF; 
+}
+
+#donate a:hover
+{
+	color:#4fbba9;
+}
+
+#donate a:active
+{
+	color:#4fbba9;
+}
+
+body .pl-1286  {
+    font-size: 18px;
+}
+.roll-icon-list .content h3 {
+	font-size: 24px;
+}
+
+element.style {
+}
+
+.text-slider .maintitle {
+	color: #ffffff;
+    text-shadow: 5px 2px 4px #393939;
+} .text-slider .subtitle {
+    color: #ffffff;
+    text-shadow: 2px 2px 4px #393939;
+}
+
+svg.genericond-social-logos {
+	vertical-align: middle;
+}
+
+svg.genericond-genericons-neue-2x {
+    height: 24px;
+    width: 24px;
+}
+
+.widget-area .widget-title {
+	padding-bottom: 14px;
+}
+
+.widget-area .widget {
+	padding-top: 0px;
+}
+
+.circle {
+  fill: #4fbba9;
+  opacity: .5;
+}
+
+.circle:hover {
+  opacity: 1;
+}
+
+
+/* Slider */
+.slick-slider
+{
+    position: relative;
+
+    display: block;
+    box-sizing: border-box;
+
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+
+    -webkit-touch-callout: none;
+    -khtml-user-select: none;
+    -ms-touch-action: pan-y;
+        touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.slick-list
+{
+    position: relative;
+
+    display: block;
+    overflow: hidden;
+
+    margin: 0;
+    padding: 0;
+}
+.slick-list:focus
+{
+    outline: none;
+}
+.slick-list.dragging
+{
+    cursor: pointer;
+    cursor: hand;
+}
+
+.slick-slider .slick-track,
+.slick-slider .slick-list
+{
+    -webkit-transform: translate3d(0, 0, 0);
+       -moz-transform: translate3d(0, 0, 0);
+        -ms-transform: translate3d(0, 0, 0);
+         -o-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+}
+
+.slick-track
+{
+    position: relative;
+    top: 0;
+    left: 0;
+
+    display: block;
+}
+.slick-track:before,
+.slick-track:after
+{
+    display: table;
+
+    content: '';
+}
+.slick-track:after
+{
+    clear: both;
+}
+.slick-loading .slick-track
+{
+    visibility: hidden;
+}
+
+.slick-slide
+{
+    display: none;
+    float: left;
+
+    height: 100%;
+    min-height: 1px;
+}
+[dir='rtl'] .slick-slide
+{
+    float: right;
+}
+.slick-slide img
+{
+    display: block;
+}
+.slick-slide.slick-loading img
+{
+    display: none;
+}
+.slick-slide.dragging img
+{
+    pointer-events: none;
+}
+.slick-initialized .slick-slide
+{
+    display: block;
+}
+.slick-loading .slick-slide
+{
+    visibility: hidden;
+}
+.slick-vertical .slick-slide
+{
+    display: block;
+
+    height: auto;
+
+    border: 1px solid transparent;
+}
+.slick-arrow.slick-hidden {
+    display: none;
+}
+
+/* Dots */
+.slick-dotted.slick-slider
+{
+    margin-bottom: 30px;
+}
+
+.slick-dots
+{
+    position: absolute;
+    bottom: -25px;
+
+    display: block;
+
+    width: 100%;
+    padding: 0;
+    margin: 0;
+
+    list-style: none;
+
+    text-align: center;
+}
+.slick-dots li
+{
+    position: relative;
+
+    display: inline-block;
+
+    width: 20px;
+    height: 20px;
+    margin: 0 5px;
+    padding: 0;
+
+    cursor: pointer;
+}
+.slick-dots li button
+{
+    font-size: 0;
+    line-height: 0;
+
+    display: block;
+
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+
+    color: transparent;
+    border: 0;
+    outline: none;
+    background: transparent;
+}
+.slick-dots li button:hover,
+.slick-dots li button:focus
+{
+    outline: none;
+}
+.slick-dots li button:hover:before,
+.slick-dots li button:focus:before
+{
+    opacity: 1;
+}
+.slick-dots li button:before
+{
+    font-size: 3rem;
+    line-height: 20px;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 20px;
+    height: 20px;
+
+    content: "•";
+    text-align: center;
+
+    opacity: .25;
+    color: #4fbba9;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.slick-dots li.slick-active button:before
+{
+    opacity: .75;
+    color: #4fbba9;
+}
+
+/*Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+// We recommend moving this block and the preceding CSS link to the HEAD of your HTML file.
+
+// MailChimp Form Embed Code - Classic - 12/17/2015 v10.7 */
+#mc_embed_signup form {display:block; position:relative; text-align:left; padding:0 0 0 3%}
+#mc_embed_signup h2 {font-weight:bold; padding:0; margin:15px 0; font-size:1.4em;}
+#mc_embed_signup input {border: 1px solid #ABB0B2; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px;}
+#mc_embed_signup input[type=checkbox]{-webkit-appearance:checkbox;}
+#mc_embed_signup input[type=radio]{-webkit-appearance:radio;}
+#mc_embed_signup input:focus {border-color:#333;}
+#mc_embed_signup .button {clear:both; background-color: #aaa; border: 0 none; border-radius:4px; transition: all 0.23s ease-in-out 0s; color: #FFFFFF; cursor: pointer; display: inline-block; font-size:15px; font-weight: normal; height: 32px; line-height: 32px; margin: 0 5px 10px 0; padding: 0 22px; text-align: center; text-decoration: none; vertical-align: top; white-space: nowrap; width: auto;}
+#mc_embed_signup .button:hover {background-color:#777;}
+#mc_embed_signup .small-meta {font-size: 11px;}
+#mc_embed_signup .nowrap {white-space:nowrap;}
+
+#mc_embed_signup .mc-field-group {clear:left; position:relative; width:96%; padding-bottom:3%; min-height:50px;}
+#mc_embed_signup .size1of2 {clear:none; float:left; display:inline-block; width:46%; margin-right:4%;}
+
+//Fix for IE6 double margins.
+* html #mc_embed_signup .size1of2 {margin-right:2%; 
+}
+	
+#mc_embed_signup .mc-field-group label {display:block; margin-bottom:3px;}
+#mc_embed_signup .mc-field-group input {display:block; width:100%; padding:6px 0; text-indent:2%;}
+#mc_embed_signup .mc-field-group select {display:inline-block; width:99%; padding:5px 0; margin-bottom:2px;}
+
+#mc_embed_signup .datefield, #mc_embed_signup .phonefield-us{padding:5px 0;}
+#mc_embed_signup .datefield input, #mc_embed_signup .phonefield-us input{display:inline; width:60px; margin:0 2px; letter-spacing:1px; text-align:center; padding:5px 0 2px 0;}
+#mc_embed_signup .phonefield-us .phonearea input, #mc_embed_signup .phonefield-us .phonedetail1 input{width:40px;}
+#mc_embed_signup .datefield .monthfield input, #mc_embed_signup .datefield .dayfield input{width:30px;}
+#mc_embed_signup .datefield label, #mc_embed_signup .phonefield-us label{display:none;}
+
+#mc_embed_signup .indicates-required {text-align:right; font-size:11px; margin-right:4%; margin-bottom:-4%;}
+#mc_embed_signup .asterisk {color:#e85c41; font-size:150%; font-weight:normal; position:relative; top:5px;}     
+#mc_embed_signup .clear {clear:both; padding-top:10px;}
+
+#mc_embed_signup .mc-field-group.input-group ul {margin:0; padding:5px 0; list-style:none;}
+#mc_embed_signup .mc-field-group.input-group ul li {display:block; padding:3px 0; margin:0;}
+#mc_embed_signup .mc-field-group.input-group label {display:inline;}
+#mc_embed_signup .mc-field-group.input-group input {display:inline; width:auto; border:none;}
+
+#mc_embed_signup div#mce-responses {float:left; top:-1.4em; padding:0em .5em 0em .5em; overflow:hidden; width:90%; margin: 0 5%; clear: both;}
+#mc_embed_signup div.response {margin:1em 0; padding:1em .5em .5em 0; font-weight:bold; float:left; top:-1.5em; z-index:1; width:80%;}
+#mc_embed_signup #mce-error-response {display:none;}
+#mc_embed_signup #mce-success-response {color:#529214; display:none;}
+#mc_embed_signup label.error {display:block; float:none; width:auto; margin-left:1.05em; text-align:left; padding:.5em 0;}
+
+#mc-embedded-subscribe {clear:both; width:auto; display:block; margin:1em 0 1em 5%;}
+#mc_embed_signup #num-subscribers {font-size:1.1em;}
+#mc_embed_signup #num-subscribers span {padding:.5em; border:1px solid #ccc; margin-right:.5em; font-weight:bold;}
+
+#mc_embed_signup #mc-embedded-subscribe-form div.mce_inline_error {display:inline-block; margin:2px 0 1em 0; padding:5px 10px; background-color:rgba(255,255,255,0.85); -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; font-size:14px; font-weight:normal; z-index:1; color:#e85c41;}
+#mc_embed_signup #mc-embedded-subscribe-form input.mce_inline_error {border:2px solid #e85c41;}
+
+select, textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"]
+{
+	height: 2.0em;
+}
+
+.col-md-4 {
+	max-width:300px;
+	float:left;
+}
+
+.col-md-8 {
+	float:right;
+}
+
+.col-xs-12{
+		width:auto;
+}
+
+#mainnav-mobi {
+	width:auto!important;
+	position:absolute;
+	left:-150px;
+}
+
+@media only screen and (max-width: 1399px) {
+.site-header #mainnav ul li ul {
+right: auto !important;
+}
+}
+
+.content-area.no-sidebar {
+	margin-top: -25px;
+}
+/*removing white strip above footer */
+.entry-footer, .page-wrap {
+	margin-top: 0px;
+	padding-bottom: 0px;
+}
+
+/*removing white space around blocks on homepage*/
+.container {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+@media (min-width: 768px) {
+	.container {
+		width: 100%;
+	}
+	
+	.footer-widgets {
+		padding-left: 20px;
+		padding-right: 20px
+	}
+	
+	.wp-block-separator {
+		color: #4DA395;
+	}
+	
+	.site-main .wp-block-group__inner-container {
+		padding: 0px;
+	}
