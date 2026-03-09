@@ -5,136 +5,142 @@ You can add your own CSS here.
 Click the help icon above to learn more.
 */
 
-@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700');
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@0,300..800;1,300..800&display=swap');
+
+@font-face {
+  font-family: 'Open_Sans_Condensed';
+  src:  url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@0,300..800;1,300..800&display=swap');
+}
 
 body {
     font-family: 'Open Sans', sans-serif;
 }
-h1, h2, h3, h4, h5, h6, #mainnav ul li a, .portfolio-info, .roll-testimonials .name, .roll-team .team-content .name, .roll-team .team-item .team-pop .name, .roll-tabs .menu-tab li a, .roll-testimonials .name, .roll-project .project-filter li a, .roll-button, .roll-counter .name-count, .roll-counter .numb-count button, input[type="button"], input[type="reset"], input[type="submit"] {
+
+.copyright-bar { display: none; 
+}
+
+/*h1, h2, h3, h4, h5, h6, #mainnav ul li a, .portfolio-info, .roll-testimonials .name, .roll-team .team-content .name, .roll-team .team-item .team-pop .name, .roll-tabs .menu-tab li a, .roll-testimonials .name, .roll-project .project-filter li a, .roll-button, .roll-counter .name-count, .roll-counter .numb-count button, input[type="button"], input[type="reset"], input[type="submit"] {
     font-family: 'Open Sans Condensed', sans-serif;
-}
-#mainnav ul li a {
-  font-size: 20px;
-}
-#mainnav ul ul a {
+}*/
+
+/*#mainnav ul ul a {
 	font-family: 'Open Sans Condensed', sans-serif !important;
-}
-#mainnav .sub-menu li a {
+}*/
+/*#mainnav .sub-menu li a {
 	background: rgba(33, 124, 115, 0.8);
 	font-family: 'Open Sans Condensed', sans-serif !important;
-}
-.home .title-post {
+}*/
+/*.home .title-post {
 	display: none;
-}
-article#post-26 {
+}*/
+/*article#post-26 {
 	margin-top: -40px;
-}
-article#post-2414 {
+}*/
+/*article#post-2414 {
 	margin-top: -40px;
-}
-article#post-2414 .title-post {
+}*/
+/*article#post-2414 .title-post {
 	display: none;
-}
+}*/
 
-#sidebar-footer {
+/*#sidebar-footer {
     padding-top: 15px;
     padding-bottom: 0px;
-}
+}*/
 
-#pi_simpletwittertweets-4 {
+/*#pi_simpletwittertweets-4 {
     padding-top: 15px;
-}
-.widget-area a {
+}*/
+/*.widget-area a {
 	color: #999999;
-}
-.hentry .title-post {
+}*/
+/*.hentry .title-post {
 	font-size: 32px;
-}
-.site-header.float-header {
+}*/
+/*.site-header.float-header {
 	padding: 0px 0;
-}
-.content_cards_card {
+}*/
+/*.content_cards_card {
 	display: inline-block;
 	max-width: 32%;
 	vertical-align: text-top;
-}
+}*/
 
-.content_cards_card .content_cards_title {
+/*.content_cards_card .content_cards_title {
     font-size: 1em;
     line-height: 1.35;
-}
+}*/
 
-.roll-button {
+/*.roll-button {
 	font-size: inherit;
 }
-
-.roll-promobox .title {
+*/
+/*.roll-promobox .title {
     font-size: 24px;
-}
+}*/
 
-#donate
+/*#donate
 {
 	color:#FFF; 
-}
+}*/
 
-#donate a:hover
+/*#donate a:hover
 {
 	color:#4fbba9;
-}
+}*/
 
-#donate a:active
+/*#donate a:active
 {
 	color:#4fbba9;
-}
+}*/
 
-body .pl-1286  {
+/*body .pl-1286  {
     font-size: 18px;
-}
-.roll-icon-list .content h3 {
+}*/
+/*.roll-icon-list .content h3 {
 	font-size: 24px;
-}
+}*/
 
-element.style {
-}
+/*element.style {
+}*/
 
-.text-slider .maintitle {
+/*.text-slider .maintitle {
 	color: #ffffff;
     text-shadow: 5px 2px 4px #393939;
 } .text-slider .subtitle {
     color: #ffffff;
     text-shadow: 2px 2px 4px #393939;
-}
+}*/
 
-svg.genericond-social-logos {
+/*svg.genericond-social-logos {
 	vertical-align: middle;
-}
+}*/
 
-svg.genericond-genericons-neue-2x {
+/*svg.genericond-genericons-neue-2x {
     height: 24px;
     width: 24px;
-}
+}*/
 
-.widget-area .widget-title {
+/*.widget-area .widget-title {
 	padding-bottom: 14px;
-}
+}*/
 
-.widget-area .widget {
+/*.widget-area .widget {
 	padding-top: 0px;
-}
+}*/
 
-.circle {
+/*.circle {
   fill: #4fbba9;
   opacity: .5;
-}
+}*/
 
-.circle:hover {
+/*.circle:hover {
   opacity: 1;
-}
+}*/
 
 
 /* Slider */
-.slick-slider
+/*.slick-slider
 {
     position: relative;
 
@@ -151,9 +157,9 @@ svg.genericond-genericons-neue-2x {
     -ms-touch-action: pan-y;
         touch-action: pan-y;
     -webkit-tap-highlight-color: transparent;
-}
+}*/
 
-.slick-list
+/*.slick-list
 {
     position: relative;
 
@@ -249,10 +255,10 @@ svg.genericond-genericons-neue-2x {
 }
 .slick-arrow.slick-hidden {
     display: none;
-}
+}*/
 
 /* Dots */
-.slick-dotted.slick-slider
+/*.slick-dotted.slick-slider
 {
     margin-bottom: 30px;
 }
@@ -337,12 +343,12 @@ svg.genericond-genericons-neue-2x {
     opacity: .75;
     color: #4fbba9;
 }
-
+*/
 /*Add your own MailChimp form style overrides in your site stylesheet or in this style block.
 // We recommend moving this block and the preceding CSS link to the HEAD of your HTML file.
 
 // MailChimp Form Embed Code - Classic - 12/17/2015 v10.7 */
-#mc_embed_signup form {display:block; position:relative; text-align:left; padding:0 0 0 3%}
+/*#mc_embed_signup form {display:block; position:relative; text-align:left; padding:0 0 0 3%}
 #mc_embed_signup h2 {font-weight:bold; padding:0; margin:15px 0; font-size:1.4em;}
 #mc_embed_signup input {border: 1px solid #ABB0B2; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px;}
 #mc_embed_signup input[type=checkbox]{-webkit-appearance:checkbox;}
@@ -355,9 +361,9 @@ svg.genericond-genericons-neue-2x {
 
 #mc_embed_signup .mc-field-group {clear:left; position:relative; width:96%; padding-bottom:3%; min-height:50px;}
 #mc_embed_signup .size1of2 {clear:none; float:left; display:inline-block; width:46%; margin-right:4%;}
-
+*/
 //Fix for IE6 double margins.
-* html #mc_embed_signup .size1of2 {margin-right:2%; 
+/* html #mc_embed_signup .size1of2 {margin-right:2%; 
 }
 	
 #mc_embed_signup .mc-field-group label {display:block; margin-bottom:3px;}
@@ -391,8 +397,8 @@ svg.genericond-genericons-neue-2x {
 
 #mc_embed_signup #mc-embedded-subscribe-form div.mce_inline_error {display:inline-block; margin:2px 0 1em 0; padding:5px 10px; background-color:rgba(255,255,255,0.85); -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; font-size:14px; font-weight:normal; z-index:1; color:#e85c41;}
 #mc_embed_signup #mc-embedded-subscribe-form input.mce_inline_error {border:2px solid #e85c41;}
-
-select, textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"]
+*/
+/*select, textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"]
 {
 	height: 2.0em;
 }
@@ -415,8 +421,8 @@ select, textarea, input[type="text"], input[type="password"], input[type="dateti
 	position:absolute;
 	left:-150px;
 }
-
-@media only screen and (max-width: 1399px) {
+*/
+/*@media only screen and (max-width: 1399px) {
 .site-header #mainnav ul li ul {
 right: auto !important;
 }
@@ -424,20 +430,20 @@ right: auto !important;
 
 .content-area.no-sidebar {
 	margin-top: -25px;
-}
+}*/
 /*removing white strip above footer */
-.entry-footer, .page-wrap {
+/*.entry-footer, .page-wrap {
 	margin-top: 0px;
 	padding-bottom: 0px;
-}
+}*/
 
 /*removing white space around blocks on homepage*/
-.container {
+/*.container {
 	padding-left: 0px;
 	padding-right: 0px;
-}
+}*/
 
-@media (min-width: 768px) {
+/*@media (min-width: 768px) {
 	.container {
 		width: 100%;
 	}
@@ -464,4 +470,8 @@ right: auto !important;
     color: #FFF !important;
     background-color: #48BCA9 !important;
     border: none !important;
-}
+}*/
+	
+
+	
+	
